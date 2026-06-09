@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Yijen Hsieh Front-end developer</title>
-    <meta name="description"  content="OVerview about Yijen Hsieh's work as a front-end developer." />
+    <title>About Yijen Hsieh Front-end developer</title>
+    <meta name="description"  content="Overview about Yijen Hsieh's work as a front-end developer." />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
@@ -23,24 +23,24 @@
     <script src="https://kit.fontawesome.com/dec530edd3.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="container"></div>
+   <div class="container">
         <nav class="d-flex justify-content-between">
-            <a href="/">
+            <a href="/" title="Homepage">
                 <img src="images/logo.png" class="logo d-none d-md-block">
-                <img src="images/logo-small.jpg" class="logo d-block d-md-none">
+                <img src="images/logo-small.jpg" class="logo d-block d-md-none" alt="Yijen Logo">
             </a>
             <ul>
+                <li> 
+                    <a href="/" title="Homepage">Home</a>
+                </li>
                 <li class="active"> 
-                    <a href="/">Home</a>
+                    <a href="/about.html" title="About Yijen">About</a>
                 </li>
                 <li> 
-                    <a href="/about.html">About</a>
+                    <a href="/work.html" title="Yijen's Work">Work</a>
                 </li>
                 <li> 
-                    <a href="/work.html">Work</a>
-                </li>
-                <li> 
-                    <a href="/contact.html">Contact</a>
+                    <a href="/contact.html" title="Contact Yijen">Contact</a>
                 </li>
             </ul> 
         </nav>
@@ -52,7 +52,7 @@
                     <h1 class="mb-4">Hi I am Yijen Hsieh</h1>
                     <h2 class="mb-4">Frontend Developer, based in South Africa</h2>
                     <p class="mb-4">For anyone who wants to start learning code, this workshop is very interesting. You will be challenged with different exercises, and everything is well explained, homework and deadlines are good for keep focus</p>
-                    <a class="btn btn-branding">View My Projects</a>
+                    <a href="/work.html" class="btn btn-branding">View My Projects</a>
                 </div>
             </div>
             <div class="col-lg-6">
@@ -60,5 +60,25 @@
             </div>
         </div>
     </div>
+        <footer class="container">
+            <div class ="contact-box justify-content-between mb-5 d-none d-md-flex">
+                <div>
+                    <h3>Work Inquiry</h3>
+                    <p class="text-muted">Let's work together</p>
+                </div>
+                <div>
+                <a href="/contact.html" class="btn btn-branding mt-3" title="Contact Yijen">Contact me</a>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center mb-5">
+                <a href="mailto:yhmail@gmail.com" class="email-link">yhmail@gmail.com</a>
+            </div>
+            <div class="social-links d-flex justify-content-center">
+                <a href="https://www.instagram.com/yijen.codes" target="_blank" title="Instagram Profile"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/YHistrying" target="_blank"><i class="fa-brands fa-github" title="GitHub Profile"></i></a>
+                <a href="https://www.twitter.com/yijencodes" target="_blank" title="Twitter Profile"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <p class="text-center mt-5">This Project Was Coded By Yijen and it is <a href="https://github.com/YHistrying/YIJEN-HSIEH-PORTFOLIO" target="_blank">open-sourced</a>✌️</p>
+        </footer>
 </body>
 </html>
